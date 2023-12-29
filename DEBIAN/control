@@ -1,0 +1,13 @@
+Package: ipblockset
+Version: 1.0.0
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: Robert <robert@penguinpower.co.nz>
+Essential: no
+Homepage: https://github.com/penguinpowernz/ipblockset
+Installed-Size: 
+Depends: ipset, iptables
+Description: Block bad IPs using ipset and iptables
+  Daemon that downloads a list of bad IPs from adds them
+  to an IP set and blocks them on the `INPUT` chain
